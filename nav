@@ -24,5 +24,20 @@
         <footer>
             <P><small>康育銘409510065版權所有</small></P>
         </footer>
+        <aside>
+            <section>    
+                <p>其他</p>
+                <nav>
+                    <ul>
+                        <li><a herf="">文章一</a>
+                        <li><a herf="">文章二</a>
+                        <li><a herf="">文章三</a>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <p>贊助廠商</p>
+            </section>
+        </aside>
     </body>
 </html>
