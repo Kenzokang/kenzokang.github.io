@@ -1,0 +1,28 @@
+<html>
+    <head>
+    <title>網頁程式設計成果</title>
+    <style>
+        header,footer{display:block;clear:both;padding:5px;text-align:center}
+        nav{display:block;float:left;width:30%;height:50%;background:blue;padding:5px}
+        article{display:block;float:right;width:70%;height:50%;background:red;padding:5px}
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>網頁程式設計成果</h1>
+        </header>
+       <nav>
+            <ul>
+                <li><a href="https://kenzokang.github.io/">Github個人首頁</a></li>
+                <li><a href="https://kenzokang.github.io/W4/W4HW1.html">CSS style</a></li>
+                <li><a href="https://kenzokang.github.io/W4/W4HW2.html">巢狀標籤</a></li>
+            </ul>
+        </nav>
+        <article>
+            <p>課堂所學之成果展現</p>
+        </article>
+        <footer>
+            <P><small>康育銘409510065版權所有</small></P>
+        </footer>
+    </body>
+</html>
