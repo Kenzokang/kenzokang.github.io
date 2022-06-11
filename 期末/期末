@@ -1,38 +1,275 @@
-<html>
-    <head>
-    <title>期末作業</title>
-    <style>
-        header,footer{display:block;clear:both;padding:5px;text-align:center}
-        nav{display:block;float:center;width:98%;height:70%;margin: 1%;font-size:200%;background:rgb(91, 166, 228)}
-        article{display:block;float:left;width:98%;height:50%;margin: 1%;font-size:200%;background:rgb(236, 38, 38)}
-        aside{display:block;float:right;width:20%;height:50%;background:rgb(94, 236, 38)}
-    </style>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>羽球入門</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
     </head>
+    
     <body>
-        <header>
-            <h1>羽球推廣介紹</h1>
-        </header>
-       <nav>
-            <ul>
-                <li><a href="https://www.youtube.com/watch?v=qsxruakE7EQ&ab_channel=JNICESPORTS">持拍教學</a></li>
-                <li><a href="https://www.youtube.com/watch?v=Vqhg_8SXZwM&ab_channel=JNICESPORTS">腳步訓練</a></li>
-            </ul>
-        </nav>
-        <article>
-            <p>課堂所學之成果展現</p>
-        </article>
-        <aside>
-            <p>其他</p>
-                <nav>
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/標題.png">
+                        </a>
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#簡單規則">簡單規則</a></li>
+                            <li class="scroll-to-section"><a href="#腳步">腳步基本動作</a></li>
+                            <li class="scroll-to-section"><a href="#握拍">握拍基本動作</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">正手揮拍</a>
+                                <ul>
+                                    <li><a href="https://youtu.be/DZuKRbWrJkY">長球</a></li>
+                                    <li><a href="https://youtu.be/3A22dThPUT0"">平球</a></li>
+                                    <li><a href="https://youtu.be/krp1HTkk-Y0">殺球</a></li>
+                                    <li><a href="https://youtu.be/Xq1kNnO5tac">挑球</a></li>
+                                    <li><a href="https://youtu.be/x4Vne4XnYnQ">切球</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="javascript:;">反手揮拍</a>
+                                <ul>
+                                    <li><a href="https://youtu.be/bXNjafTsN94">長球</a></li>
+                                    <li><a href="https://youtu.be/-qhoE-HH_rk">切球</a></li>
+                                    <li><a href="https://youtu.be/y3tSQkfTTDU">挑球</a></li>
+                                </ul>
+                            </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-banner" id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-content">
+                        <div class="thumb">
+                            <div class="inner-content">
+                                <h4>簡單規則</h4>
+                                <div class="main-border-button">
+                                    <a href="assets/images/規則.png">立即了解</a>
+                                </div>
+                                <div class="main-border-button">
+                                    <a href="https://youtu.be/ooaFPlLzW98">看影片更快</a>
+                                </div>
+                            </div>
+                            <img src="assets/images/丹.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" id="腳步">
+                    <div class="right-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>腳步基本動作</h4>
+                                            <span>跑得到才打得到</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>腳步基本動作</h4>
+                                                <p>不要跌倒啦各位</p>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/Vqhg_8SXZwM">米字步開學</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="assets/images/腳步.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6" id="握拍">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>握拍基本動作</h4>
+                                            <span>拍子都握不好怎麼上球場</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>握拍基本動作</h4>
+                                                <p>別亂握到別人ㄚ</p>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/GpEWtoXjzpQ">握緊嘍</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="assets/images/握拍1.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>正手揮拍</h4>
+                                            <span>拍子揮不好連蒼蠅都打不到</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>正手揮拍</h4>
+                                                <p>小心別揮到隊友的頭</p>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/DZuKRbWrJkY">長球</a>
+                                                </div>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/3A22dThPUT0">平球</a>
+                                                </div>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/krp1HTkk-Y0">殺球</a>
+                                                </div>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/Xq1kNnO5tac">挑球</a>
+                                                </div>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/x4Vne4XnYnQ">切球</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="assets/images/正拍.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>反手揮拍</h4>
+                                            <span>教練我看不到球ㄚ</span>
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>反手揮拍</h4>
+                                                <p>這真的好難==</p>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/bXNjafTsN94">長球</a>
+                                                </div>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/-qhoE-HH_rk">切球</a>
+                                                </div>
+                                                <div class="main-border-button">
+                                                    <a href="https://youtu.be/y3tSQkfTTDU">挑球</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="assets/images/反拍.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="first-item">
+                        <div class="logo">
+                            <img src="assets/images/結尾.png" alt="hexashop ecommerce templatemo">
+                        </div>
+                        <ul>
+                            <li><a href="https://github.com/Kenzokang/kenzokang.github.io/tree/main#kenzokanggithubio">Kenzokang</a></li>
+                            <li><a href="#">kenzokang@alum.ccu.edu.tw</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4>更多進階技巧</h4>
                     <ul>
-                        <li><a herf="">文章一</a></li>
-                        <li><a herf="">文章二</a></li>
-                        <li><a herf="">文章三</a></li>
+                        <li><a href="https://youtu.be/QPVfakFXBAg">正手勾對角</a></li>
+                        <li><a href="https://youtu.be/K8LXfvWNFK4">反手勾對角</a></li>
+                        <li><a href="https://youtu.be/CIFAYRpE_yo">滑拍</a></li>
                     </ul>
-                </nav>
-        </aside>
-        <footer>
-            <P><small>康育銘409510065版權所有</small></P>
-        </footer>
-    </body>
+                </div>
+                <div class="col-lg-3">
+                    <h4>明星選手們</h4>
+                    <ul>
+                        <li><a href="https://youtu.be/SCUT4h7tEp0">林丹-羽球之神</a></li>
+                        <li><a href="https://youtu.be/DX61bmxAySc">李宗偉-林丹下的影子</a></li>
+                        <li><a href="https://youtu.be/tmeNkX-mzVk">戴姿穎-球后</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>經典比賽欣賞</h4>
+                    <ul>
+                        <li><a href="https://youtu.be/b03wzMgi0qo">2011倫敦世錦賽</a></li>
+                        <li><a href="https://youtu.be/b03wzMgi0qo">2017亞錦賽</a></li>
+                        <li><a href="https://youtu.be/yZbR5nKYiDc">2021全英公開賽</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="under-footer">
+                        <p>Kenzokang © 2022  All Rights Reserved. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    <script src="assets/js/custom.js"></script>
+     <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
 </html>
